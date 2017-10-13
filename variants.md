@@ -25,4 +25,4 @@ http://articles.extension.org/share/PBG/ConifercapModule17/index.html
 ```
 statistics of the sequencing
 
-https://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.html
+https://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.htmlscsc
