@@ -1,5 +1,16 @@
 # Variants - theory
 
+
+**Population stratification** (sometimes also called population admixture) 
+describes the differences in allele frequencies between subpopulations because of ancestry.
+
+Control: pick SNPs not related with disease and check whether they are significant. 
+
+http://www.bio-itworld.com/2014/1/27/getting-know-new-reference-genome-assembly.html
+
+https://www.youtube.com/watch?v=KYQ2dPW5nEU
+
+
 ## Single nucleotide variant (SNV)
 
 https://www.quora.com/Genomics-What-is-the-difference-between-an-SNP-and-an-SNV
@@ -31,3 +42,6 @@ http://articles.extension.org/share/PBG/ConifercapModule17/index.html
 ```bash
 
 ```
+statistics of the sequencing
+
+https://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.htmlscsc
