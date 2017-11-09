@@ -31,8 +31,6 @@ PCA axes are sorted in descending order according to the amount of variance they
 
 from [here](http://www.davidzeleny.net/anadat-r/doku.php/en:pca)
 
-
-
 **Using SNP Data to Examine Human Phenotypic Differences**
 https://www.nature.com/scitable/topicpage/using-snp-data-to-examine-human-phenotypic-706
 
