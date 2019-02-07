@@ -3,8 +3,16 @@
 
 ## Prerequisites
 
-ssh-keygen
-ssh-copy-id
+**Required**
+* ssh-keygen
+* ssh-copy-id
+
+**Helpful** - necessary to copy the key to github account. 
+* xclip
+
+```bash
+sudo apt install ssh-keygen ssh-copy-id
+```
 
 ## Creating a key
 
@@ -26,6 +34,7 @@ I keep my keys in the defualt directory, but like to name them as I use keys for
 Next, we are asked for passphrase. If you wish not to have a password protected key (i.e. don't want to prompted for a password every time you use it, just press enter). It is recommended though to encrypt the key so that it cannot be used by someone who shouldn't otherwise have access. For strong passwords I either use my [KeePassXC](https://keepassxc.org/) random generator or use one of the [online tools](https://passwordsgenerator.net/). 
 
 ```bash
+~$ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/username/.ssh/id_rsa): /home/username/.ssh/work_server
 Enter passphrase (empty for no passphrase): 
@@ -48,7 +57,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-There is much more to the ssh-keygen program than what's described above, I definately recommend giving a manual a read! For example you may wish to increase the number of bits to 4048 by specifing it with `-b 4048`, or add a comment to the key with `-C "dell machine". You can access the info about the program by simply typing:
+There is much more to the ssh-keygen program than what's described above, I definately recommend giving a manual a read! For example you may wish to increase the number of bits to 4048 by specifing it with `-b 4048`, or add a comment to the key with `-C "dell machine"`. You can access the info about the program by simply typing:
 
 ```bash
 man ssh-keygen
@@ -70,7 +79,7 @@ Again, it's worth reading manual pages on ssh-copy-id as you may want to specify
 man ssh-copy-id
 ```
 
-i### Testing the connection
+## Testing the connection
 
 To test the key type:
 
