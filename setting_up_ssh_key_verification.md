@@ -1,5 +1,5 @@
 # Setting up the key verification for an ssh connection
-
+This is a simple tutorial on how to set up key verification for a secure connection. It is suppose to help actually setting up the verification, to learn more about the SSH key I recommend this page on [Arch Linux Wiki](https://wiki.archlinux.org/index.php/SSH_keys). 
 
 ## Prerequisites
 
