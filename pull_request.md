@@ -33,10 +33,33 @@ The following example will look like this:
 
 There are bunch of other naming convention like *dev* instead of *wip*, *issue* with work related to raised issues etc. There's no right answers. As long as you are consistant, everything will be fine.
 
-To create a branch by simply typing.
+To create a branch simply type.
 
 ```bash
-git checkout -a NAME_OF_THE_BRANCH
+git checkout -b NAME_OF_THE_BRANCH
+```
+This equivalent to:
+
+```bash
+git branch NAME_OF_THE_BRANCH # creating new branch
+git checkout NAME_OF_THE_BRANCH # checks out from current branch
+```
+
+**Interesting branch options**
+
+```bash
+# to delete the local copy of the branch
+# will throw an error if branch has unmerged changes
+git branch -d NAME_OF_THE_BRANCH 
+
+# to force delete the branch 
+git branch -D NAME_OF_THE_BRANCH
+
+# to rename the current branch
+git branch -m NEW_NAME_OF_THE_BRANCH
+
+# to list all branches
+git branch -a
 ```
 
 ## Merging branches 
@@ -71,3 +94,11 @@ git push origin NAME_OF_THE_BRANCH
 ### Creating a pull request
 
 After you commit to the repository you should open a pull request, you can do that by following the [step-by-step guide on the help.github.com pages](https://help.github.com/en/articles/creating-a-pull-request).
+
+## Random noted
+
+To see all the changes from last commit:
+
+```bash
+git diff
+```
