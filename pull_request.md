@@ -1,5 +1,11 @@
 # Making changes to the repository (github)
 
+//TODO: 
+
+* Fork or not to fork repo?
+* Pull request;
+* Add more description and link sources.
+
 ## Basics
 
 Never work on master, if working on new code, fixing bugs or adding features create a new branch. It's importnat to name the branch so it will describe its purpose. There are some guidelines to naming convention, like the ones in this [stack overflow post](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches). It's recommended to use grouping tokens, i.e. instead of having following branches:
@@ -29,8 +35,9 @@ There are bunch of other naming convention like *dev* instead of *wip*, *issue* 
 
 To create a branch by simply typing.
 
+```bash
 git checkout -a NAME_OF_THE_BRANCH
-
+```
 
 ## Merging branches 
 
@@ -51,6 +58,14 @@ git commit -m "descriptive message"
 ```bash
 git add *
 git commit -m "Fixed #78" # this will link this commit to the issue and close it
+```
+
+### Pushing changes 
+
+After you are done with the work - push your changes to the branch. You can do that by:
+
+```bash
+git push origin NAME_OF_THE_BRANCH
 ```
 
 ### Creating a pull request
