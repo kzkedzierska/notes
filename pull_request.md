@@ -8,6 +8,12 @@
 
 ## Basics
 
+There is a really great [Tutorial on branching in git](https://learngitbranching.js.org/) - worth giving it a shot as it is interactive and easy to follow. 
+
+The motto worth keeping in mind:
+
+> branch early, and branch often 
+
 Never work on master, if working on new code, fixing bugs or adding features create a new branch. It's importnat to name the branch so it will describe its purpose. There are some guidelines to naming convention, like the ones in this [stack overflow post](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches). It's recommended to use grouping tokens, i.e. instead of having following branches:
 
 * fixing_bug_345
@@ -95,10 +101,25 @@ git push origin NAME_OF_THE_BRANCH
 
 After you commit to the repository you should open a pull request, you can do that by following the [step-by-step guide on the help.github.com pages](https://help.github.com/en/articles/creating-a-pull-request).
 
-## Random noted
+## Random notes
 
 To see all the changes from last commit:
 
 ```bash
 git diff
 ```
+
+## Resources
+
+Tutorials
+
+* [Learn Git Branching](https://learngitbranching.js.org/)
+* [Become a git guru from atlassian](https://www.atlassian.com/git/tutorials)
+
+Articles
+
+* [Fixing unfrotunete git push --force](https://evilmartians.com/chronicles/git-push---force-and-how-to-deal-with-it)
+
+Books
+
+* [Pro Git](https://git-scm.com/book/tr/v2)
